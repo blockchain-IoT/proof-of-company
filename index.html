@@ -5,61 +5,68 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/poc.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
   </head>
   <body>
-      <div class="uk-navbar-container">
-        <div class="uk-container uk-container-expand">
-          <nav uk-navbar>
-            <div class="uk-navbar-left">
-              <a class="uk-navbar-item uk-logo" href="#">Proof-Of-Work Whitepapers</a>
-            </div>
+      <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-dark; top: 200">
+        <div class="uk-navbar-container poc-navbar-container">
+          <div class="uk-container uk-container-expand">
+            <nav uk-navbar>
+              <div class="uk-navbar-left">
+                <a class="uk-navbar-item uk-logo poc-logo" href="#">Proof-of-Company</a>
+              </div>
 
-            <div class="uk-navbar-right">
-        
-              <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">Active</a></li>
-                <li>
-                  <a href="#">Parent</a>
-                  <div class="uk-navbar-dropdown">
-                      <ul class="uk-nav uk-navbar-dropdown-nav">
-                          <li class="uk-active"><a href="#">Active</a></li>
-                          <li><a href="#">Item</a></li>
-                          <li><a href="#">Item</a></li>
-                      </ul>
-                  </div>
-                </li>
-                <li><a href="#">Item</a></li>
-              </ul>
-            </div>
-          </nav>
+              <div class="uk-navbar-right">
+          
+                <ul class="uk-navbar-nav">
+                  <li class="uk-active"><a href="#">Buy ICO whitepapers</a></li>
+                  <li>
+                    <a href="#">Products</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">Blockchain IoT</a></li>
+                            <li><a href="#">MotoCoin</a></li>
+                            <li><a href="#">VIKING GARAGE</a></li>
+                        </ul>
+                    </div>
+                  </li>
+                  <li><a href="#">Consulting</a></li>
+                  <li><a href="#">About</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
 
-      <div class="uk-container">
-        <h1 class="uk-heading-hero pow-hero">Heading Hero</h1>
+      <div class="uk-container uk-container-expand uk-align-center poc-hero-container uk-cover-container">
+        <img src="images/brandi-redd-122054.jpg" uk-cover alt="" />
+        <div class="uk-flex-left poc-hero-container" uk-grid>
+          <h1 class="uk-heading-primary poc-hero">Whitepapers for Blockchain ICO</h1>
+        </div>
+      </div>
 
+      <div class="uk-container uk-container-small poc-body-container">
         <article class="uk-article">
 
-          <h1 class="uk-article-title"><a class="uk-link-reset" href="">Heading</a></h1>
+          <h2 class="uk-article-title poc-body-title"><a class="uk-link-reset" href="">Clearly express your vision,<br />convince your community.</a></h2>
       
-          <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a href="#">Blog</a></p>
+          <p class="uk-text-lead">Are you interested in blockchain? Proof-of-Company can help you become a part of the blockchain movement. Every ICO needs a whitepaper.</p>
       
-          <p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+          <p>A whitepaper is a formal document, which accurately describes the company’s future product. It is meant to follow standards: be concise, structured and on-point. The whitepaper should take into account the core functionality, but also the foreseeable edge cases. Writing the whitepaper is a time-consuming task, and may even be daunting. It is very important, however, because the process shapes and completes the vision driving the business. It is the right moment to consult.</p>
       
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      
-          <div class="uk-grid-small uk-child-width-auto" uk-grid>
-            <div>
-              <a class="uk-button uk-button-text" href="#">Read more</a>
-            </div>
-            <div>
-              <a class="uk-button uk-button-text" href="#">5 Comments</a>
-            </div>
-          </div>
+          <!-- <div class="uk-flex uk-flex-around">
+            <div class="uk-card uk-card-default uk-card-body">Item 1</div>
+            <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 2</div>
+            <div class="uk-card uk-card-default uk-card-body uk-margin-left">Item 3</div>
+          </div> -->
         
         </article>
+      </div>
+
+      <div class="uk-container uk-container-expand poc-footer-container">
 
       </div>
 
